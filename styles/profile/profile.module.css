@@ -1,0 +1,471 @@
+.Hero {
+  height: 600px;
+  background-image: url("/images/profile/profile.png");
+}
+.bannerRow {
+  padding: 0px 45px;
+  background: rgba(14, 12, 21, 0.4);
+  backdrop-filter: blur(8px);
+  height: 162px;
+}
+.bannerrowprofileImg .bannerrowprofileImgCode {
+  min-width: 192px;
+}
+.bannerRowProfileHeading {
+  color: #f0f2fd;
+  font-size: 40px;
+  text-transform: capitalize;
+  line-height: 40px;
+  word-wrap: break-word;
+}
+.bannerRowProfilePara {
+  color: #f0f0f0;
+  font-size: 16px;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+.bannerRowProfileBadge {
+  color: white;
+  font-size: 16px;
+  text-transform: capitalize;
+  line-height: 16px;
+  word-wrap: break-word;
+}
+.count {
+  color: white;
+  font-size: 18px;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+.namebox {
+  color: #bdbdbf;
+  font-size: 16px;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+.messagebutton,
+.friendsbutton {
+  background: linear-gradient(90deg, #d136f6 0%, #6c5dd3 100%);
+  border-radius: 4px;
+  backdrop-filter: blur(16px);
+  width: 130px;
+  border: 1px solid transparent;
+  font-size: 14px;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+.friendsbutton {
+  background: transparent;
+  border-color: #fff;
+}
+
+/* recently played */
+
+.RecentlyPlayed {
+  margin-top: 112px;
+}
+.RecentlyPlayedHeading {
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 40px;
+  word-wrap: break-word;
+}
+.RecentlyPlayedHeading span {
+  color: #d136f6;
+}
+
+.RecentlyPlayedButton {
+  color: white;
+  font-size: 14px;
+  line-height: 21.84px;
+  word-wrap: break-word;
+  background: #121116;
+  border-radius: 20px;
+  border: 1px #d136f6 solid;
+  width: 112px;
+  height: 40px;
+}
+
+/* RecentlyPlayedCard */
+.RecentlyPlayedCard {
+  height: 212px;
+  padding-right: 87px;
+  background-image: url("/images/profile/bg-big-card.png");
+  background-size: cover;
+  background-position: center;
+}
+.mainheadingteam {
+  color: #f0f2fd;
+  font-size: 40px;
+  text-transform: capitalize;
+  line-height: 40px;
+  word-wrap: break-word;
+}
+.mainlevelteam {
+  color: #d136f6;
+  font-size: 18px;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+.infoboxwrapper {
+  border-left: 1px solid #ffffff;
+}
+.infobox {
+  padding: 14px 24px 14px 20px;
+}
+.infoboxheading {
+  color: #b9b7bc;
+  font-size: 14px;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+.infoboxpara {
+  color: white;
+  font-size: 18px;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+/* profilepagegrid */
+.profilepagegrid {
+  grid-template-columns: 0.8fr 1fr;
+}
+.TeamFinderGrid {
+  background-color: #15131d;
+  padding: 38px 28px;
+}
+.TeamFinderCard {
+  background: linear-gradient(
+    180deg,
+    rgba(37.38, 33.19, 52.06, 0.5) 0%,
+    rgba(37.38, 33.19, 52.06, 0) 52%,
+    rgba(37.38, 33.19, 52.06, 0.5) 96%
+  );
+  border-radius: 8px;
+}
+
+.TeamFinderCardHeading {
+  color: white;
+  font-size: 18px;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+.TeamFinderCardLastTime {
+  color: #bab9bd;
+  font-size: 12px;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+.TeamFinderCardLastState {
+  color: #ada8c3;
+  font-size: 16px;
+  line-height: 16px;
+  word-wrap: break-word;
+}
+.TeamFinderCardLastW {
+  color: #9d99ad;
+  font-size: 14px;
+  line-height: 26.53px;
+  word-wrap: break-word;
+}
+
+.invitebutton {
+  background: linear-gradient(90deg, #d136f6 0%, #6c5dd3 100%);
+  color: white;
+  font-size: 16px;
+  line-height: 24.96px;
+  word-wrap: break-word;
+}
+.TeamFinderBox {
+  border-top: 0.5px rgba(228, 228, 228, 0.1) solid;
+  border-bottom: 0.5px rgba(228, 228, 228, 0.1) solid;
+  height: 41px;
+}
+
+.TeamFinderBoxHeading {
+  color: #ada8c3;
+  font-size: 16px;
+  line-height: 16px;
+  word-wrap: break-word;
+}
+.TeamFinderCardPara {
+  color: #9d99ad;
+  font-size: 14px;
+  line-height: 26.53px;
+  word-wrap: break-word;
+}
+
+/* bannerarea */
+.GameHighLights {
+  transform: translateY(-45px);
+}
+.bannerarea {
+  height: 225px;
+  background-image: url("/images/profile/banner.png");
+  background-size: cover;
+  background-position: top;
+}
+.bannerareaheading {
+  color: white;
+  font-size: 40px;
+  line-height: 48px;
+  word-wrap: break-word;
+}
+
+.headingrowpercentage {
+  color: white;
+  font-size: 24px;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+.headingrow {
+  background-color: #15131d;
+  height: 96px;
+}
+.percentage {
+  background: #3f3a52;
+  height: 20px;
+  width: 324px;
+}
+.percentage span {
+  height: 20px;
+  background: linear-gradient(
+    270deg,
+    #6c5dd3 0%,
+    rgba(107.66, 92.96, 210.56, 0) 100%
+  );
+  display: flex;
+}
+.playerEarning {
+  height: 172px;
+  width:260px;
+  background-image: url("/images/profile/mask-group.png");
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 1770px) {
+  .mainheadingteam {
+    font-size: 30px;
+  }
+  .teambox > img:first-child,
+  .teambox > img:last-child {
+    width: 150px;
+  }
+  .teambox {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 1630px) {
+  .RecentlyPlayedCard {
+    height: unset;
+  }
+  .bannerrowprofileImg .bannerrowprofileImgCode {
+    min-width: 162px;
+  }
+  .bannerRow {
+    height: unset;
+    display: grid;
+    row-gap: 20px;
+    column-gap: 20px;
+    grid-template-columns: 162px 1fr 1fr 1fr 1fr;
+  }
+  .bannerRow > *:last-child {
+    grid-column: span 5;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .RecentlyPlayedCard {
+    padding-right: 2rem;
+  }
+  .bannerarea {
+    background-position-y: 40px !important;
+  }
+  .RecentlyPlayedCar > *:nth-child(2) {
+    padding-right: 87px;
+  }
+  .infobox {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .infoboxwrapper > * + * {
+    margin-left: 20px;
+  }
+  .profilepagegrid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .percentage {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .profilepagegrid {
+    grid-template-columns: 1fr;
+  }
+  .bannerarea {
+    background-position-y: 0px !important;
+  }
+  .bannerrowprofileImg .bannerrowprofileImgCode {
+    min-width: 162px;
+  }
+  .bannerRow {
+    height: unset;
+    display: grid;
+    row-gap: 20px;
+    column-gap: 20px;
+    grid-template-columns: 162px 1fr 1fr 1fr 1fr;
+  }
+  .bannerRow > *:nth-child(2) {
+    grid-column: span 4;
+  }
+  .bannerRow > * {
+    margin-left: 0px !important;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .bannerRow > *:last-child {
+    grid-column: span 2;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .RecentlyPlayedCard .teamarea {
+    flex-direction: column;
+  }
+  .RecentlyPlayedCard .teamarea > * {
+    width: 100%;
+  }
+  .RecentlyPlayedCard .teamarea > *:last-child {
+    padding-left: 0px;
+    border-left: 0px;
+    margin-top: 1rem;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .bannerRow {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .bannerRow > *:nth-child(3) {
+    grid-column: span 2;
+  }
+  .bannerRow > *:nth-child(4) {
+    grid-column: span 2;
+  }
+  .bannerRow > *:nth-child(5) {
+    grid-column: span 2;
+  }
+  .bannerRow > *:last-child {
+    grid-column: span 6;
+  }
+}
+@media screen and (max-width: 700px) {
+  .bannerRow {
+    padding-top: 5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .bannerRow > *:first-child img:first-child {
+    min-width: 100px;
+    width: 140px;
+  }
+  .bannerRow > *:nth-child(2) {
+    grid-column: span 3 !important;
+  }
+  .bannerRow > *:nth-child(2) h1 {
+    font-size: 25px;
+  }
+  .bannerRow > *:nth-child(3),
+  .bannerRow > *:nth-child(4),
+  .bannerRow > *:nth-child(5) {
+    grid-column: span 1;
+  }
+  .bannerRow > *:nth-child(3) > h1,
+  .bannerRow > *:nth-child(4) > h1,
+  .bannerRow > *:nth-child(5) > h1 {
+    font-size: 13px;
+  }
+  .bannerRow > *:last-child {
+    grid-column: span 3;
+  }
+  .bannerRow > *:last-child button {
+    width: 100%;
+  }
+  .bannerRow > *:first-child {
+    margin-right: 0px;
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .RecentlyPlayedCard .teamarea > div:first-child {
+    margin-right: 0px;
+    flex-direction: column;
+  }
+  .RecentlyPlayedCard .teamarea > div:first-child > * {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .RecentlyPlayedCard .teamarea > div:first-child > *:nth-child(2) {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .RecentlyPlayedCard .teamarea > div:first-child > *:nth-child(2) img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .TeamFinderCard > div img:last-child {
+    display: none;
+  }
+}
+@media screen and (max-width: 550px) {
+  .mainheadingteam {
+    font-size: 20px;
+  }
+  .TeamFinderCard > div:first-child > img:nth-child(1) {
+    width: 50px;
+  }
+  .TeamFinderCard > div:first-child > div:nth-child(2) {
+    flex: 1;
+  }
+  .TeamFinderCard > div:first-child > div:nth-child(3) {
+    flex: unset;
+  }
+  .TeamFinderBox {
+    padding-top: 1.5rem;
+    height: unset;
+    padding-bottom: 1rem;
+    flex-direction: column;
+  }
+  .count {
+    font-size: 15px;
+  }
+  .bannerarea {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-position-y: 0px !important;
+    background: linear-gradient(to right, #692781, #3d3271);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: unset;
+  }
+
+  .bannerareaheading {
+    font-size: 35px;
+    line-height: unset;
+  }
+  .GameHighLights {
+    transform: translateY(0px);
+  }
+  .headingrow {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .percentage {
+    width: 130px;
+  }
+}

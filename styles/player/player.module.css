@@ -1,0 +1,160 @@
+.TopCard {
+  background: linear-gradient(
+    90deg,
+    rgba(209, 54, 246, 0.1) 0%,
+    rgba(108, 93, 211, 0.1) 100%
+  );
+}
+.topcardImage {
+  height: 244px;
+  object-fit: cover;
+}
+.profilename h1 {
+  color: white;
+  font-size: 24px;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+.profilename p {
+  color: white;
+  font-size: 18px;
+  font-family: "Satoshi-Light";
+  line-height: 24px;
+  word-wrap: break-word;
+}
+.trafficPara {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Satoshi-Regular";
+  line-height: 24px;
+  word-wrap: break-word;
+}
+.trafficPara span {
+  color: #d136f6;
+}
+
+.bestplayercardtopbuton {
+  height: 50px;
+  border: 0.5px rgba(228, 228, 228, 0.1) solid;
+}
+.bestplayercardtopbutonName {
+  color: white;
+  font-size: 16px;
+  line-height: 16px;
+  word-wrap: break-word;
+}
+.bottomCard {
+  margin-top: 14px;
+  padding: 7px;
+  background: rgba(56.81, 5.47, 69.06, 0.22);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  border: 1px #d136f6 solid;
+}
+.ImageWrapperBottomCard {
+  background: linear-gradient(
+    90deg,
+    rgba(209, 54, 246, 0.1) 0%,
+    rgba(108, 93, 211, 0.1) 100%
+  );
+}
+
+.ImageWrapperHeading {
+  color: white;
+  font-size: 34px;
+  text-transform: uppercase;
+  line-height: 34px;
+  word-wrap: break-word;
+}
+
+.presentationHeading {
+  color: #d136f6;
+  font-size: 20px;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+.presentationPara {
+  color: white;
+  font-size: 14px;
+  line-height: 14px;
+  word-wrap: break-word;
+}
+
+.grownP {
+  color: white;
+  font-size: 16px;
+  line-height: 16px;
+  word-wrap: break-word;
+}
+.statusshow {
+  color: white;
+  font-size: 16px;
+  line-height: 16px;
+  word-wrap: break-word;
+}
+
+.PopularPlayerCard {
+  height: 90px;
+  background: #0e0c15;
+  padding: 0px 20px;
+
+  border: 1px #3f3a52 solid;
+}
+
+.splideWrapperPlayerPopular {
+  background-image: url("/images/player/blur-pp.png");
+  background-size: cover;
+  padding: 35px;
+  background-position: center;
+}
+.playermainImg {
+  height: 1405px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1300px) {
+  .splidegrid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .playerwrappergrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 628px) {
+  .playerwrappergrid {
+    grid-template-columns: 1fr;
+  }
+  .splideWrapperPlayerPopular {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .playerwrappergrid {
+    grid-template-columns: 1fr;
+  }
+  .splideWrapperPlayerPopular {
+    padding: 10px;
+  }
+  .PopularPlayerCard {
+    display: grid;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: unset;
+    gap: 10px;
+    grid-template-columns: 80px 1fr 1fr;
+  }
+  .PopularPlayerCard > *:nth-child(2),
+  .PopularPlayerCard > *:nth-child(3) {
+    grid-column: span 2;
+  }
+  .gridwrapperplayer {
+    margin-top: 0px;
+  }
+  .gridwrapperheading {
+    width: 200px;
+    margin-bottom: 4rem;
+  }
+}

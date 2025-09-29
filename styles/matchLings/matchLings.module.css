@@ -1,0 +1,310 @@
+.EarnPlaying {
+  height: 436px;
+  background-image: url("/images/matchLinga/bg-blur-match-linga.png");
+  background-size: cover;
+  background-position: center;
+  padding-left: 110px;
+  margin-top: 180px;
+}
+.EarnPlayingHeading {
+  color: white;
+  font-size: 96px;
+  line-height: 100px;
+  word-wrap: break-word;
+}
+
+.EarnPlayingSpan {
+  display: block;
+  background: -webkit-linear-gradient(180deg, #6c5dd3, #d136f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.streambutton {
+  color: white;
+  font-size: 18px;
+  line-height: 28.08px;
+  word-wrap: break-word;
+  background: linear-gradient(90deg, #d136f6 0%, #6c5dd3 100%);
+}
+.matchCardWrapper {
+  background-color: #271233;
+}
+.matchcardheading {
+  color: white;
+  font-size: 24px;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+.matchcardpara {
+  color: #838091;
+  font-size: 12px;
+  text-transform: capitalize;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+.matchRoundheading {
+  color: white;
+  font-size: 32px;
+  background-color: #42225c;
+  word-wrap: break-word;
+}
+
+.matchRoundheading3 {
+  color: white;
+  background-color: #42225c;
+  width: 121px;
+  font-size: 18px;
+  height: 29px;
+  word-wrap: break-word;
+}
+
+.matchRoundTime {
+  color: #838091;
+  font-size: 12px;
+
+  text-transform: capitalize;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+.MatchCard {
+  background-color: #351645;
+}
+.MatchShowNew {
+  background: #0e0c15 !important;
+}
+.MatchShowNew .matchRoundheading {
+  background-color: #15111e;
+}
+.MatchCardFortnite {
+  background-color: transparent;
+  margin-top: 40px;
+  height: 172px;
+  border-radius: 0px;
+  border-top: 1px solid #252134;
+  border-bottom: 1px solid #252134;
+}
+
+/* MatchLingaFortnite */
+.MatchLingaFortnite {
+  padding: 40px 30px;
+  background-color: #251433;
+  background-image: url("/images/matchLinga/bg-matchLinga.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.MatchLingaFortniteHeading {
+  color: white;
+  font-size: 28px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+}
+.MatchLingaFortniteHeading span {
+  color: #d136f6;
+}
+
+.forniteHeading2 {
+  color: white;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+}
+.forniteLive {
+  width: 72px;
+  height: 31px;
+  border-radius: 99px;
+  color: white;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+  border: 2px #d136f6 solid;
+}
+
+.saperateheading {
+  color: white;
+  font-size: 28px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+  margin-top: 46px;
+}
+.saperateheading span {
+  color: #d136f6;
+}
+
+.headingBanner {
+  background: linear-gradient(90deg, #d136f6 0%, #6c5dd3 100%);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.headingBanner {
+  color: white;
+  font-size: 24px;
+  line-height: 24px;
+  left: 50%;
+  width: 222px;
+  height: 40px;
+  word-wrap: break-word;
+  transform: translateX(-50%);
+}
+
+.matchWrapperHeading {
+  background: linear-gradient(
+    90deg,
+    rgba(209, 54, 246, 0.1) 0%,
+    rgba(108, 93, 211, 0.1) 100%
+  );
+}
+
+.matcheading {
+  color: white;
+  font-size: 20px;
+  word-wrap: break-word;
+}
+.matcheadingspan {
+  color: #d136f6;
+  font-size: 24px;
+  word-wrap: break-word;
+}
+.resultHeading {
+  color: white;
+  font-size: 24px;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.percentageSpan {
+  height: 6px;
+}
+.percentageSpanOne {
+  background-color: #d136f6;
+}
+.percentageSpanTwo {
+  background-color: #6c5dd3;
+}
+@media screen and (max-width: 1700px) {
+  .MatchLingaFortnite > div:first-child {
+    flex-direction: column;
+  }
+  .MatchLingaFortnite > div:first-child > * {
+    width: 100%;
+  }
+  .MatchLingaFortnite > div:first-child > * + * {
+    margin-top: 1rem;
+  }
+  .matchCardWrapper {
+    padding: 40px 30px;
+  }
+  .MatchCardFortnite > div:first-child img {
+    margin-left: 10px !important;
+  }
+  .MatchCardFortnite > div:last-child img {
+    margin-right: 10px !important;
+  }
+
+  .MatchCard > div:first-child img {
+    margin-left: 10px !important;
+  }
+  .MatchCard > div:last-child img {
+    margin-right: 10px !important;
+  }
+
+  .MatchShowNew > div:first-child img {
+    margin-left: 0px !important;
+  }
+  .MatchShowNew > div:last-child img {
+    margin-right: 0px !important;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .matchlingagrid {
+    grid-template-columns: 1fr !important;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .EarnPlaying {
+    padding-left: 0rem;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  .EarnPlayingHeading {
+    font-size: 50px;
+    text-align: center;
+    line-height: unset;
+  }
+  .EarnPlaying img {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .EarnPlaying {
+    height: 300px;
+  }
+  .EarnPlayingHeading {
+    font-size: 40px;
+  }
+  .EarnPlaying h1 + a {
+    margin-top: 20px;
+  }
+  .MatchCard {
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+  }
+  .MatchCardFortnite {
+    padding: 0px;
+  }
+
+  .MatchCard > div {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .MatchCard > div:nth-child(2) {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .MatchCard div + img {
+    width: 50px;
+  }
+  .MatchCardFortnite > div:first-child p img {
+    margin-left: 0px !important;
+  }
+
+  .MatchLingaFortniteHeading {
+    font-size: 16px;
+    line-height: unset;
+  }
+  .forniteHeading2 {
+    font-size: 25px;
+    line-height: unset;
+  }
+  .matchcardheading {
+    font-size: 12px;
+  }
+  .matcheading {
+    flex-direction: column;
+    text-align: center;
+  }
+  .matcheading,
+  .matcheading span {
+    font-size: 15px;
+  }
+  .matcheading span {
+    margin-left: 0px;
+  }
+  .saperateheading {
+    font-size: 20px;
+  }
+  .MatchCard > div:first-child img {
+    margin-left: 0px !important;
+  }
+  .MatchCard > div:last-child img {
+    margin-right: 0px !important;
+  }
+}

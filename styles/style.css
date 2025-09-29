@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&family=Sen:wght@400;500;600;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Manrope:wght@200;300;400;500;600;700;800&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+  /* background: var(--neutral-bg-04, #0e0c15); */
+  background-color: #140e1d;
+}
+#__next {
+  max-width: 1920px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+@font-face {
+  font-family: "Satoshi-Light";
+
+  src: url("../public/fonts/Satoshi-Light.woff2") format("woff2"),
+    url("../public/fonts/Satoshi-Light.woff") format("woff"),
+    url("../public/fonts/Satoshi-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Satoshi-Regular";
+  src: url("../public/fonts/Satoshi-Regular.woff2") format("woff2"),
+    url("../public/fonts/Satoshi-Regular.woff") format("woff"),
+    url("../public/fonts/Satoshi-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Satoshi-Medium";
+  src: url("../public/fonts/Satoshi-Medium.woff2") format("woff2"),
+    url("../public/fonts/Satoshi-Medium.woff") format("woff"),
+    url("../public/fonts/Satoshi-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Satoshi-Bold";
+  src: url("../public/fonts/Satoshi-Bold.woff2") format("woff2"),
+    url("../public/fonts/Satoshi-Bold.woff") format("woff"),
+    url("../public/fonts/Satoshi-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Satoshi-Black";
+  src: url("../public/fonts/Satoshi-Black.woff2") format("woff2"),
+    url("../public/fonts/Satoshi-Black.woff") format("woff"),
+    url("../public/fonts/Satoshi-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none !important;
+  opacity: 0 !important;
+}
+.Achievement {
+  background: linear-gradient(
+    90deg,
+    rgba(209, 54, 246, 0.24) 0%,
+    rgba(108, 93, 211, 0.24) 100%
+  );
+}
+body {
+  background-color: #0e0c15;
+}
+.connect-wallet {
+  background: var(
+    --gradient-linear,
+    linear-gradient(90deg, #d136f6 0%, #6c5dd3 100%)
+  );
+}
+.connect-wallet:hover {
+  background: rgba(255, 255, 255, 0.24);
+  backdrop-filter: blur(8px);
+}
+.coins {
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 0.08) 0%,
+    rgba(255, 255, 255, 0) 80.83%
+  );
+}
+.friends {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.TabsWrapper a.active {
+  background: var(--neutral-bg-03, #15131d);
+  color: white;
+}
+
+.sidebar {
+  display: none;
+}
+@media (max-width: 1280px) {
+  .sidebar {
+    display: block;
+    background-color: #0e0c15;
+    width: 280px;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1000;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+  }
+  .show-sidebar .sidebar {
+    opacity: 1;
+    transition: 0.2s ease-in-out;
+    left: 0;
+  }
+  body.show-sidebar {
+    overflow: hidden;
+  }
+  .show-sidebar .sidebar-overlay {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.492);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: 999;
+  }
+}
+.Liner-border {
+  border: 7px solid var(--gradient-angular-01, #ffc876);
+}

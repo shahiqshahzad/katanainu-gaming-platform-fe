@@ -1,0 +1,317 @@
+.landingwrapper {
+  background-image: url("/images/landing/bg-landing.png");
+  background-size: cover;
+}
+
+.homebanner {
+  height: 780px;
+  background-image: url("/images/landing/banner.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bannerbuttons a {
+  width: 144px;
+  color: white;
+  font-size: 14px;
+  line-height: 21.84px;
+  word-wrap: break-word;
+  background: linear-gradient(90deg, #d136f6 0%, #6c5dd3 100%);
+}
+.bannerbuttons a:last-child {
+  background: rgba(255, 255, 255, 0.24);
+  backdrop-filter: blur(8px);
+}
+.bannerbuttons a:first-child:hover {
+  background: rgba(255, 255, 255, 0.24);
+  backdrop-filter: blur(8px);
+}
+.joingamewrapper {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.5);
+}
+.joingame > p {
+  color: white;
+  font-size: 32px;
+
+  word-wrap: break-word;
+}
+.joingame > div > img:first-child {
+  width: 1180px;
+  height: 632px;
+}
+.joingame > div > button {
+  transition: 0.3s ease all;
+}
+.joingame > div > button:hover {
+  transform: scale(1.1) translateX(-50%) translateY(-50%);
+}
+.listhome {
+  width: 1400px;
+}
+.listhomenew {
+  margin-top: 235px;
+  margin-bottom: 235px;
+}
+.listhomenew > div:first-child > h1 {
+  font-size: 64px;
+  line-height: 64px;
+}
+
+/* TeamBox */
+.TeamBox {
+  height: 385px !important;
+}
+.teamoverview {
+  margin-top: 180px;
+}
+.teamoverview > div:first-child > h1 {
+  font-size: 64px !important;
+  line-height: 64px !important;
+}
+.LandingContact {
+  margin-top: 180px;
+  margin-bottom: 100px;
+}
+.LandingContact > div:first-child > h1 span {
+  font-size: 64px !important;
+  line-height: 64px !important;
+}
+.LandingContact form label,
+.LandingContact form input,
+.LandingContact form textarea {
+  font-size: 16px;
+}
+.MerchandiseCard {
+  background-color: #15131d;
+}
+.shirtwrapper {
+  height: 464px;
+  background-color: #121018;
+}
+
+.merchandisepresentation {
+  border-bottom: 1px solid #332d5b;
+}
+.merchandisepresentation div h1 {
+  color: white;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+}
+.merchandisepresentation div p {
+  color: white;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 0.25px;
+  word-wrap: break-word;
+}
+.merchandisepresentation > h1 {
+  color: white;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+}
+
+.bottomcardarea p {
+  color: white;
+  font-size: 14px;
+  line-height: 16px;
+  word-wrap: break-word;
+}
+
+/* BlogCard */
+.blogwrapper {
+  height: 507px;
+  grid-template-rows: 1fr 1fr;
+}
+.blogwrapper > *:first-child {
+  grid-row: span 2;
+  grid-column: span 3;
+}
+
+.blogwrapper > *:nth-child(2) {
+  grid-row: span 1;
+  grid-column: span 4;
+}
+.blogwrapper > *:nth-child(3) {
+  grid-row: span 2;
+  grid-column: span 4;
+}
+.blogwrapper > *:nth-child(4) {
+  grid-column: span 2;
+}
+.blogwrapper > *:nth-child(5) {
+  grid-column: span 2;
+}
+
+.BlogCard {
+  background-size: cover;
+  background-position: center;
+}
+.BlogCard::after {
+  height: 150px;
+  background: linear-gradient(to top, #000, transparent);
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  content: "";
+}
+.BlogCard h1 {
+  color: white;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+}
+
+.BlogCard p {
+  color: #f0f0f0;
+  font-size: 12px;
+  line-height: 18px;
+  word-wrap: break-word;
+}
+.BlogCard a {
+  color: #d136f6;
+  font-size: 14px;
+  text-decoration: underline;
+  line-height: 21.84px;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 1450px) {
+  .listhome {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .teamboxmobile {
+    grid-template-columns: 1fr 1fr;
+  }
+  .teamboxmobile > div {
+    height: unset !important;
+  }
+  .merchandisemobile {
+    grid-template-columns: 1fr 1fr;
+  }
+  .teamoverview h1 {
+    transform: translateX(0px);
+  }
+  .LandingContact {
+    flex-direction: column;
+  }
+  .LandingContact div:last-child {
+    width: 100%;
+    margin-top: 5rem;
+  }
+  .LandingContact div:last-child input,
+  .LandingContact div:last-child textarea {
+    width: 100%;
+  }
+  .homebanner {
+    height: 500px;
+  }
+  .homebanner > img {
+    width: 400px;
+  }
+  .joingame > p {
+    text-align: center;
+    line-height: unset;
+  }
+  .joingame > div > img:first-child {
+    width: 100%;
+    height: unset;
+  }
+  .blogwrapper > *:first-child {
+    height: 507px;
+  }
+  .blogwrapper > * {
+    grid-column: span 1 !important;
+  }
+  .blogwrapper > *:nth-child(4),
+  .blogwrapper > *:nth-child(5) {
+    height: 307px;
+  }
+
+  .blogwrapper {
+    height: unset;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .LandingContact div:last-child {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .teamboxmobile,
+  .merchandisemobile {
+    grid-template-columns: 1fr;
+  }
+
+  .LandingContact {
+    flex-direction: column;
+  }
+  .joingame > p {
+    font-size: 16px;
+  }
+  .teamoverview > div:first-child > h1,
+  .LandingContact > div:first-child > h1 span {
+    font-size: 40px !important;
+    line-height: 50px !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .blogwrapper {
+    grid-template-columns: 1fr;
+  }
+  .blogwrapper > * {
+    grid-column: span 1 !important;
+  }
+  .blogwrapper > *:nth-child(2) {
+    height: 400px;
+  }
+  .blogwrapper > *:nth-child(3) {
+    height: 600px;
+  }
+  .blogwrapper > *:nth-child(4),
+  .blogwrapper > *:nth-child(5) {
+    height: 307px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .teamoverview > div:first-child h2 {
+    display: none;
+  }
+  .homebanner > img {
+    width: 250px;
+  }
+  .homebanner a {
+    width: 120px;
+    font-size: 12px;
+  }
+  .homebanner > div {
+    margin-top: 20px;
+  }
+  .homebanner a:first-child {
+    margin-right: 10px;
+  }
+  .homebanner a img {
+    margin-right: 5px;
+  }
+  .joingame {
+    width: 95%;
+    margin: 0rem auto;
+  }
+}

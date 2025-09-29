@@ -1,0 +1,324 @@
+.cardMatchWrapper {
+  margin-top: 172px;
+}
+
+/* profile area css */
+
+.ProfileAccont {
+  height: 328px;
+  background-image: url("/images/personalAccount/ProfileImage.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.backbutton {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21.84px;
+  word-wrap: break-word;
+}
+.headingname {
+  color: #f0f2fd;
+  font-size: 32px;
+  text-transform: capitalize;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+}
+.headingdetail {
+  color: #ada8c3;
+  font-size: 14px;
+  line-height: 19.6px;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+}
+.headingdetailColor {
+  color: #d136f6;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+}
+.skeleton {
+  width: 330px;
+  height: 254px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+}
+/* match card */
+.MatchCard {
+  height: 366px;
+  border-radius: 6px;
+  background-size: cover;
+
+  background-position: center;
+}
+.headingcard {
+  color: white;
+  font-size: 54px;
+  line-height: 54px;
+
+  word-wrap: break-word;
+}
+.headingcard span {
+  color: #d136f6;
+  display: block;
+}
+
+.percentageWrapper {
+  width: 95%;
+  height: 88px;
+  position: absolute;
+  background: rgba(14, 12, 21, 0.44);
+  border-radius: 6px;
+  backdrop-filter: blur(8px);
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 6px;
+}
+.barwrapper {
+  height: 12px;
+  flex: 1;
+  border-radius: 4px;
+  margin-right: 1rem;
+  background-color: #ffffff8a;
+}
+.bar {
+  display: block;
+  height: 12px;
+  border-radius: 4px;
+  width: 20%;
+  background: #6c5dd3;
+}
+
+.percentageValue {
+  color: white;
+  font-size: 18px;
+  line-height: 19.8px;
+  word-wrap: break-word;
+}
+
+.skeletonHeading {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  word-wrap: break-word;
+}
+.skeletonHeading span {
+  color: #d136f6;
+}
+
+.skeletonScore {
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 16.8px;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+}
+.skeletonScore span {
+  color: #d136f6;
+}
+
+.box {
+  border-radius: 4px;
+  padding: 8px 12px;
+  text-align: right;
+  background-color: #150e1e;
+  border: 1px solid #252134;
+}
+.boxheading {
+  color: #ada8c3;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 16.8px;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+}
+.topBattleHeading {
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 40px;
+  word-wrap: break-word;
+}
+.topBattleHeading span {
+  color: #d136f6;
+}
+
+.topBattleButton {
+  color: white;
+  font-size: 14px;
+  line-height: 21.84px;
+  word-wrap: break-word;
+  background: #121116;
+  border-radius: 20px;
+  border: 1px #d136f6 solid;
+  width: 112px;
+  height: 40px;
+}
+
+/* MatchShow */
+.MatchShow {
+  background: linear-gradient(
+    180deg,
+    rgba(107.66, 92.96, 210.56, 0.24) 0%,
+    rgba(40.23, 34.67, 74.08, 0.14) 46%,
+    rgba(107.66, 92.96, 210.56, 0.04) 100%
+  );
+}
+.longCard {
+  background-color: #14122f;
+  height: 160px;
+  border-radius: 16px;
+}
+.matchRoundheading {
+  background: rgba(255, 255, 255, 0.48);
+}
+.longCardHeading {
+  color: white;
+  font-size: 28px;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+
+.longCardPara {
+  color: #838091;
+  font-size: 24px;
+  margin-top: 7.8px;
+  text-transform: capitalize;
+  line-height: 38.98px;
+  word-wrap: break-word;
+}
+.longCardPara span {
+  color: #d136f6;
+}
+.longCardHeadingMore {
+  color: white;
+  text-align: right;
+  font-size: 54.57px;
+  line-height: 54.57px;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 1025px) {
+  .ProfileAccont {
+    height: unset;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .ProfileAccont > *:first-child {
+    order: 1;
+  }
+  .ProfileAccont > *:nth-child(2) {
+    order: 3;
+    flex-direction: column;
+  }
+  .ProfileAccont > *:nth-child(2) > div {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .ProfileAccont > *:last-child {
+    order: 2;
+  }
+  .skeleton {
+    position: static;
+    width: 100%;
+  }
+  .cardMatchWrapper {
+    grid-template-columns: 1fr;
+    gap: 150px;
+  }
+  .PlayerBattleGrid {
+    grid-template-columns: 1fr;
+  }
+  .skeletonHeading {
+    font-size: 25px;
+  }
+  .longCardHeading,
+  .longCardPara {
+    font-size: 20px;
+  }
+
+  .longCard > * {
+    flex: unset;
+  }
+  .longCard > * + * {
+    margin-left: 2rem;
+  }
+  .longCard > *:nth-child(4) {
+    position: absolute;
+    right: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .longCard {
+    flex-direction: column;
+    height: unset;
+    text-align: center;
+    padding: 1rem 0rem;
+  }
+  .longCard > * {
+    margin-left: 0px;
+    margin-bottom: 2rem;
+  }
+  .longCard > *:first-child {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .longCard > *:first-child > div:first-child {
+    margin-right: 0px;
+    margin-bottom: 1rem;
+  }
+  .longCard > *:nth-child(4) {
+    position: static;
+    padding-right: 0px;
+    margin-bottom: 0px;
+  }
+  .longCard > *:last-child {
+    display: none;
+  }
+  .MatchCard > img:nth-child(2) {
+    width: 300px;
+    bottom: 0px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .MatchCard {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0px;
+    height: unset;
+    padding-bottom: 0px;
+    padding-top: 3rem;
+  }
+  .MatchCard h1 {
+    text-align: center;
+  }
+  .MatchCard > img:nth-child(2) {
+    position: static;
+  }
+  .cardMatchWrapper {
+    gap: 50px;
+    margin-top: 3rem;
+  }
+  .PlayerBattleGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .ProfileAccont {
+    padding: 2rem 1rem;
+  }
+
+  .ProfileAccont > *:last-child {
+    padding: 10px;
+  }
+}
